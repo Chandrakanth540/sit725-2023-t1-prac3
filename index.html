@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3.2P</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="navbar-head">
+        <h2 class="head1">
+            Welcome to SIT 725 Week 3
+        </h2>
+        <h5 class="head2">Task 3.2 P</h5>
+    </nav>
+    <main class="main-block">
+        <div class="image-block">
+            <img src="images/livedemo.png" class="image" alt="Live demo" height="100%" width="40%">
+        </div>
+        <div class="btn-block">
+            <button class="click-btn">
+                <a href="#modal1" class="waves-effect waves-light btn modal-trigger">
+
+                    <img src="images/handpoint.png" alt="" height="22px" width="22px">
+                    Click me
+
+                </a>
+            </button>
+
+            <!-- Modal Trigger -->
+            <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                    <h4>Enquire with Query</h4>
+                    <form id="enquiryForm">
+                        <div class="input-field">
+                            <input id="name" type="text" class="validate" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea id="question" class="materialize-textarea"></textarea>
+                            <label for="question">Question</label>
+                        </div>
+
+                    </form>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-red btn-flat"
+                        style="background-color: red !important;">Cancel </a>
+                    <a id="submitBtn" href="#!" class="modal-close waves-effect waves-green btn-flat"
+                        style="background-color: green;">Submit <i class="material-icons right">send</i></a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </main>
+    <div class="card-section">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/toyota1.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Toyota Corolla<i
+                        class="material-icons right">more_vert</i></span>
+                <p><a href="#">see more</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Toyota Corolla<i
+                        class="material-icons right">close</i></span>
+                <p>The Toyota Corolla is one of the best-selling cars of all time, known for its reliability,
+                    affordability, and fuel efficiency. It offers a comfortable ride, a spacious interior, and a
+                    reputation for longevity. With a range of trim levels and options, the Corolla appeals to a wide
+                    range of drivers, from first-time car buyers to families looking for a reliable daily driver.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/toyota.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Toyota Yaris<i
+                        class="material-icons right">more_vert</i></span>
+                <p><a href="#">see more</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Toyota Yaris<i
+                        class="material-icons right">close</i></span>
+                <p>The Toyota Yaris is a subcompact car that offers excellent fuel efficiency, nimble handling, and a
+                    surprisingly spacious interior. It's a practical choice for city driving, thanks to its compact size
+                    and easy maneuverability. The Yaris is also known for its affordability and low maintenance costs,
+                    making it an attractive option for budget-conscious buyers.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/toyota2.png" width="50%" height="100%">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Toyota Camry<i
+                        class="material-icons right">more_vert</i></span>
+                <p><a href="#">see more</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Toyota Camry<i
+                        class="material-icons right">close</i></span>
+                <p>The Toyota Camry is a popular choice among drivers looking for a reliable and comfortable midsize
+                    sedan. Known for its spacious interior, smooth ride, and fuel-efficient engines, the Camry is a
+                    great option for daily commuting or long road trips. With its reputation for longevity and strong
+                    resale value, the Camry continues to be a top contender in its class.</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
